@@ -1,0 +1,221 @@
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.app-container {
+  font-family: sans-serif;
+}
+
+.main-content {
+  padding: 30px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.role-selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.roles-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.role-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  color: #333;
+  background: linear-gradient(to bottom right, #b0e2ff, #fffacd);
+  transition: all 0.3s ease-in-out;
+}
+
+.role-button:hover {
+  background: linear-gradient(to bottom right, #8ac4ff, #eee);
+  transform: scale(1.05);
+}
+
+.top-navigation {
+  padding: 20px;
+  width: 98%;
+  margin: 0 auto;
+  position: fixed;
+  top: 50px;
+  z-index: 99;
+  box-shadow: 0px 2px 2px white;
+  background-color: white;
+}
+
+.top-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.top-navigation li {
+  margin: 0;
+}
+
+.nav-item {
+  width: 25%;
+  text-align: center;
+}
+
+.nav-item a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #b0e2ff, #fffacd);
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+  background: linear-gradient(to bottom right, #a0d4ff, #d4a0c4);
+  transform: scale(1.05);
+}
+
+.dane-section {
+}
+
+.ankieta-section {
+}
+
+.glosowanie-section {
+}
+
+.psycholog-section {
+}
+
+.dane-button {
+  display: block;
+  width: 200px;
+  padding: 15px;
+  margin: 0 auto 10px;
+  background: linear-gradient(to bottom right, #b0e2ff, #fffacd);
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.dane-button:hover {
+  background: linear-gradient(to bottom right, #8ac4ff, #eee);
+  transform: scale(1.05);
+}
+
+.back-button {
+  display: block;
+  width: 50px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(to bottom right, #b0e2ff, #fffacd);
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  background: linear-gradient(to bottom right, #8ac4ff, #eee);
+  transform: scale(1.05);
+}
+
+.dane-text {
+  text-align: center;
+}
+
+.top-banner {
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* 🎯 DODANE pod wykresy */
+.chart-container {
+  margin-top: 40px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.chart-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.dane-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.dane-images {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.dane-img {
+  max-width: 200px;
+  height: auto;
+}
+
+.dane-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.dane-buttons button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  color: #333;
+  background: linear-gradient(to bottom right, #b0e2ff, #fffacd);
+  transition: all 0.3s ease-in-out;
+}
+
+.dane-buttons button:hover {
+  background: linear-gradient(to bottom right, #8ac4ff, #eee);
+  transform: scale(1.05);
+}
+
+.dane-content {
+  width: 100%;
+  max-width: 800px;
+}
