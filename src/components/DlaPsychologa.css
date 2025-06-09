@@ -1,0 +1,33 @@
+.psycholog-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.psycholog-container h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.psycholog-container section {
+  margin-bottom: 40px;
+}
+
+.psycholog-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+.block {
+  background-color: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 8px;
+  line-height: 1.6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
