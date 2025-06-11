@@ -7,17 +7,6 @@ function DlaPsychologa() {
       <h2>Dla psychologa</h2>
 
       <section className="psycholog-section">
-        <h3>Metody zapobiegawcze</h3>
-        <ul>
-          <li>Zaangażowanie samorządu uczniowskiego</li>
-          <li>Zbudowanie rodzinnych zdrowych nawyków</li>
-          <li>Dofinansowanie zakupu zdrowszych alternatyw</li>
-          <li>Wyjaśnienie konsekwencji</li>
-          <li>Kary dyscyplinarne (uwagi, rozmowy z nauczycielem)</li>
-        </ul>
-      </section>
-
-      <section className="psycholog-section">
         <h3>Materiały do nauki</h3>
         <ul>
           <li>Prezentacje</li>
