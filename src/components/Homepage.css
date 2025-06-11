@@ -113,3 +113,8 @@
   border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.logo {
+  width: 200px; /* Adjust the width as needed */
+  margin-bottom: 20px; /* Add some space between the logo and the heading */
+}

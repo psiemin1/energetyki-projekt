@@ -51,7 +51,7 @@
   position: fixed;
   top: 50px;
   z-index: 99;
-  box-shadow: 0px 2px 2px white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   background-color: white;
 }
 
@@ -154,7 +154,7 @@
   margin-bottom: 20px;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 99%;
   z-index: 100;
 }
 
@@ -218,4 +218,9 @@
 .dane-content {
   width: 100%;
   max-width: 800px;
+}
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  margin-bottom: 10px; /* Add some spacing between the logo and the heading */
 }

@@ -26,6 +26,7 @@ function RoleSelection({ onRoleSelect }) {
 
   return (
     <div className="role-selection-container">
+      <img src="/logostr.png" alt="Logo" className="logo" />
       <h2>Kim jesteś?</h2>
       <div className="roles-grid">
         {roles.map(role => (

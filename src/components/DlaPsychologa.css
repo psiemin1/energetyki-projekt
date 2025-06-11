@@ -16,6 +16,11 @@
   margin-bottom: 40px;
 }
 
+.psycholog-container ul {
+  list-style: none;
+  padding-left: 0; /* Remove default padding */
+}
+
 .psycholog-container h3 {
   font-size: 20px;
   margin-bottom: 10px;

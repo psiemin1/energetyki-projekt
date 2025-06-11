@@ -1,6 +1,7 @@
 // Dane.js
 
 import React, { useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
   PieChart, Pie, Cell, Legend
@@ -11,13 +12,19 @@ const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff8042', '#8dd1e1', '#d0ed57'
 
 function Dane() {
   const [dane, setDane] = useState({});
+  const { ref, inView } = useInView({
+    threshold: 0.1,
+    triggerOnce: true,
+  });
 
   useEffect(() => {
     setDane(mockDane);
+    console.log("Dane component mounted");
+    console.log("mockDane:", mockDane);
   }, []);
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div ref={ref} className={`sticky-charts-container fade-in ${inView ? 'in-view' : ''}`} style={{ padding: '20px' }}>
       <h2>Częstotliwość spożywania napojów energetycznych</h2>
       {dane.czestosc?.length > 0 && (
         <ResponsiveContainer width="100%" height={300}>
@@ -50,7 +57,7 @@ function Dane() {
 
       {dane.sytuacja?.length > 0 && (
         <>
-          <h2>Sytuacje, w których uczniowie sięgają po napoje</h2>
+          <h2>Sytuacje, w których uczniowie sięgają po napoje energetyczne</h2>
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={dane.sytuacja} layout="vertical" margin={{ top: 20, right: 30, left: 100, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" />
