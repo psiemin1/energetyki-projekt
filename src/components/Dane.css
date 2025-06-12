@@ -1,0 +1,31 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button-container .nav-item {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #b0e2ff, #fffacd);
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.button-container .nav-item:hover {
+  background: linear-gradient(to bottom right, #a0d4ff, #d4a0c4);
+  transform: scale(1.05);
+}
+
+.button-container .nav-item.selected {
+  background: linear-gradient(to bottom right, #82ca9d, #ffc658);
+  color: white;
+}
+
