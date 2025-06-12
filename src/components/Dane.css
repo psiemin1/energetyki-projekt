@@ -1,8 +1,19 @@
-.fade-in {
+.chart-container {
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
-.fade-in.in-view {
+.chart-container.in-view {
   opacity: 1;
+  transform: translateY(0);
+}
+
+.bar-animation {
+  transform: translateY(50%);
+  transition: transform 1s ease-out;
+}
+
+.bar-animation.in-view {
+  transform: translateY(0);
 }
